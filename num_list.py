@@ -1,17 +1,19 @@
 #Assume you have a list of numbers ``nums = [12, 10, 32, 3, 66, 17, 42, 99, 20]``
 nums = [12, 10, 32, 3, 66, 17, 42, 99, 20]
 
-def print_each_number():
+def print_each_number(da_numbah):
     # Write a loop that prints each of the numbers on a new line, like this:
     # 12
     # 10
     # ...etc
     # TODO - Write your code below this line.  (Keep the indentation)
-    
+    for i in (da_numbah):
+        print(i)
+print_each_number(nums)    
 
     
 
-def print_each_number_and_its_square():
+def print_each_number_and_its_square(da_numbah):
     # Write a second loop that prints each number and its square on a new line
     # precisely like this:
     #
@@ -19,5 +21,7 @@ def print_each_number_and_its_square():
     # The square of 10 is 100
     # ...etc
     # TODO - Write your code below this line.  (Keep the indentation)
-    
+    for i in (da_numbah):
+        print("The square of", i,"is", i ** 2)
+print_each_number_and_its_square(nums)        
 
